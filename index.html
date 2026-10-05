@@ -127,6 +127,22 @@
     }
     .stamp-time { margin: 0; color: #fff; font: 600 1rem/1.4 "IBM Plex Mono", monospace; }
     .stamp-note { margin: 4px 0 0; color: #9eb2a8; font-size: .82rem; }
+    .live-page-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      width: 100%;
+      margin-top: 16px;
+      padding: 11px 12px;
+      color: #07100d;
+      background: #44d395;
+      font: 700 .8rem/1 "IBM Plex Mono", monospace;
+      text-decoration: none;
+    }
+    .live-page-link::after { content: "→"; font: 700 1rem/1 sans-serif; }
+    .live-page-link:hover { background: #84e5b9; }
+    .live-page-link:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
 
     .score-strip {
       display: grid;
@@ -365,6 +381,7 @@
         <div class="stamp-label">TradingView snapshot</div>
         <p class="stamp-time">05 Oct 2026 · 19:05 WAT</p>
         <p class="stamp-note">Open a chart for the latest quote.</p>
+        <a class="live-page-link" href="https://trybnetwork.github.io/AlphaTrader/live/" target="_blank" rel="noopener noreferrer" aria-label="Open the AlphaTrader Live page">Open Live page</a>
       </div>
     </section>
 

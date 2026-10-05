@@ -79,7 +79,7 @@ const tvChart = s => {
 };
 const tags = s => `<div class="tags">
     ${s.timeframe ? `<span class="tag">${s.timeframe}</span>` : ''}
-    ${s.confluenceScore >= 5 ? `<span class="tag aplus">🔥 A+ ${s.confluenceScore}/6</span>` : ''}
+    ${s.confluenceScore >= 5 ? `<span class="tag aplus">🔥 A+ ${s.confluenceScore}/6</span>` : s.confluenceScore === 4 ? `<span class="tag">A SETUP · 4/6</span>` : ''}
     ${s.htfAligned ? '<span class="tag htf">HTF ✓</span>' : ''}
     <span class="tag">${s.source === 'human' ? 'human' : 'AI'}</span>
   </div>`;

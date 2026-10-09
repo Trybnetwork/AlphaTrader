@@ -1,1 +1,25 @@
-{"openSignals":[],"scorecard":{"averageR":0,"expired":3,"graded":3,"losses":0,"totalR":0,"winRate":0,"wins":0},"updatedAt":"2026-10-05T10:45:43Z"}
+{
+  "updatedAt": "2026-10-09T09:09:01Z",
+  "openSignals": [],
+  "scorecard": {
+    "graded": 4,
+    "wins": 1,
+    "losses": 0,
+    "expired": 3,
+    "winRate": 25.0,
+    "averageR": 0.5,
+    "totalR": 2.0,
+    "tiers": {
+      "aplus": {
+        "graded": 1,
+        "winRate": 100.0,
+        "averageR": 2.0
+      },
+      "a": {
+        "graded": 3,
+        "winRate": 0.0,
+        "averageR": 0.0
+      }
+    }
+  }
+}
